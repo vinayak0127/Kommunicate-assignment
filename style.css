@@ -18,8 +18,9 @@ span {
 
 .bar {
     height: 35vh;
-    width: 4px;
+    width: 3px;
     background-color: black;
+
 }
 
 .parent {
@@ -27,6 +28,9 @@ span {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     /* background-color: blanchedalmond; */
 }
 
@@ -34,18 +38,18 @@ span {
     flex-direction: column;
     border-width: 3px 3px 3px 0;
     height: 30vh;
-    width: 60vw;
+    width: 50vw;
     border-style: solid;
     border-color: #2DD35C;
     border-top-right-radius: 30vw;
     border-bottom-right-radius: 2vw;
     z-index: 10;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+
 }
+
 .container {
-    padding: 0 0 0 10%;
+    padding: 5% 0 0 10%;
+    width: 35vw;
     /* background-color: #2DD35C; */
 }
 
@@ -57,7 +61,7 @@ span {
 }
 
 .right {
-    width: 50vw;
+    width: 30vw;
     height: 7vw;
     border-top-left-radius: 30vw;
     border-bottom-left-radius: 2vw;
@@ -68,6 +72,7 @@ span {
     -moz-filter: blur(10px);
     -o-filter: blur(10px);
     -ms-filter: blur(10px);
+    margin: 5vw 0 0 -10vw;
 }
 
 .one {
