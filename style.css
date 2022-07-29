@@ -13,7 +13,6 @@ span {
     display: flex;
     margin: 20px;
     padding: 20px;
-    /* background-color: rgb(201, 140, 140); */
 }
 
 .bar {
@@ -31,7 +30,6 @@ span {
     display: flex;
     align-items: center;
     flex-direction: row;
-    /* background-color: blanchedalmond; */
 }
 
 .left {
@@ -43,21 +41,17 @@ span {
     border-color: #2DD35C;
     border-top-right-radius: 30vw;
     border-bottom-right-radius: 2vw;
-    z-index: 10;
-
 }
 
 .container {
     padding: 5% 0 0 10%;
     width: 23vw;
-    /* background-color: #2DD35C; */
 }
 
 .heading {
     padding-bottom: 2vh;
     font-size: 2vw;
     font-weight: 400;
-    /* background-color: aquamarine; */
 }
 
 .right {
@@ -65,25 +59,18 @@ span {
     height: 8vw;
     border-top-left-radius: 30vw;
     border-bottom-left-radius: 2vw;
-    background-color: #deadf7;
-    z-index: -1;
-    filter: blur(10px);
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);
-    margin: 2vw 0 0 -15vw;
+    margin: 2vh 0 0 -10vw;
+    background-color: #5553b770;
+    backdrop-filter: blur(5px);
 }
 
 .one {
-    /* height: 2vw; */
     color: white;
     background-color: #2DD35C;
     border: none;
 }
 
 .second {
-    /* height: 2vw; */
     color: #5553B7;
     background-color: white;
     border: 2px solid #5553B7;
