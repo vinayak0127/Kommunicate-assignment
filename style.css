@@ -17,8 +17,8 @@ span {
 }
 
 .bar {
-    height: 35vh;
-    width: 3px;
+    height: 20vw;
+    width: .2vw;
     background-color: black;
 
 }
@@ -37,7 +37,7 @@ span {
 .left {
     flex-direction: column;
     border-width: 3px 3px 3px 0;
-    height: 30vh;
+    height: 15vw;
     width: 50vw;
     border-style: solid;
     border-color: #2DD35C;
@@ -49,20 +49,20 @@ span {
 
 .container {
     padding: 5% 0 0 10%;
-    width: 35vw;
+    width: 23vw;
     /* background-color: #2DD35C; */
 }
 
 .heading {
     padding-bottom: 2vh;
-    font-size: 2.5rem;
+    font-size: 2vw;
     font-weight: 400;
     /* background-color: aquamarine; */
 }
 
 .right {
-    width: 30vw;
-    height: 7vw;
+    width: 25vw;
+    height: 8vw;
     border-top-left-radius: 30vw;
     border-bottom-left-radius: 2vw;
     background-color: #deadf7;
@@ -72,11 +72,11 @@ span {
     -moz-filter: blur(10px);
     -o-filter: blur(10px);
     -ms-filter: blur(10px);
-    margin: 5vw 0 0 -20vw;
+    margin: 2vw 0 0 -15vw;
 }
 
 .one {
-    padding: .5vw;
+    height: 2vw;
     font-weight: 500;
     color: white;
     border-radius: 2vw;
@@ -85,11 +85,10 @@ span {
 }
 
 .second {
-    padding: .5vw;
+    height: 2vw;
     font-weight: 500;
     color: #5553B7;
     border-radius: 2vw;
     background-color: white;
     border: 2px solid #5553B7;
-
 }
