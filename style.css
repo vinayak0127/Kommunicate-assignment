@@ -76,19 +76,22 @@ span {
 }
 
 .one {
-    height: 2vw;
-    font-weight: 500;
+    /* height: 2vw; */
     color: white;
-    border-radius: 2vw;
     background-color: #2DD35C;
     border: none;
 }
 
 .second {
-    height: 2vw;
-    font-weight: 500;
+    /* height: 2vw; */
     color: #5553B7;
-    border-radius: 2vw;
     background-color: white;
     border: 2px solid #5553B7;
+}
+
+.btn {
+    padding: .5vw;
+    font-weight: 500;
+    font-size: .7vw;
+    border-radius: 2vw;
 }
